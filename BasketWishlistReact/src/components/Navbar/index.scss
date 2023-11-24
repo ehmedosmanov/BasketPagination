@@ -1,0 +1,28 @@
+nav {
+  .nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+
+  }
+  .navbar {
+    height: 72px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .navbar-items {
+    display: flex;
+    li {
+      margin-left: 20px;
+    }
+  }
+}
+
+.container {
+  padding: 0 100px;
+}
+
+.themes span {
+    cursor: pointer;
+    font-size: 40px;
+}

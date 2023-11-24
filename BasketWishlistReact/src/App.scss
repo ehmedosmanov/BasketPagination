@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: #fff;
+  --main-text-color: #000;
+  --secondary-text-color: #fff; 
+}
+
+.dark {
+  --main-bg-color: #000;
+  --main-text-color: #fff;
+  --secondary-text-color: #000;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: 'Rubik', sans-serif;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.products {
+  margin-top: 20px;
+}
+
+.border {
+  border: 1px solid var( --main-text-color);
+}
+
+.btn  {
+  outline: none;
+  border:none;
+  color: var(--main-bg-color);
+  padding: 10px 17px;
+  background: var( --main-text-color);
+}
+
+.box {
+  padding: 10px 20px;
+  width: 300px;
+}
+
+.products-items {
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btns {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  button {
+    cursor: pointer;
+  }
+}
+
+
+.top-side {
+  display: flex;
+  margin-top: 45px;
+  justify-content: space-between;
+}
+
+.btn-count {
+  outline: none;
+  border:none;
+  margin-top: 10px;
+  color: var(--main-bg-color);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 2px;
+  background: var( --main-text-color);
+}
